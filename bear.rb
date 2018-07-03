@@ -7,4 +7,9 @@ attr_reader :name, :type, :stomach
     @type = type
     @stomach = []
   end
+
+  def put_fish_in_bear(fish)
+    @stomach << fish
+  end
+
 end
